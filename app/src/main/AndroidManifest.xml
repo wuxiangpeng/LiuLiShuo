@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.yanglw.liulishuo" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q1Activity"
+            android:label="@string/title_activity_q1" >
+        </activity>
+        <activity
+            android:name=".Q2Activity"
+            android:label="@string/title_activity_q2" >
+        </activity>
+        <activity
+            android:name=".Q3Activity"
+            android:label="@string/title_activity_q3" >
+        </activity>
+        <activity
+            android:name=".Q4Activity"
+            android:label="@string/title_activity_q4" >
+        </activity>
+    </application>
+
+</manifest>

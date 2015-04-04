@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LiuLiShuo</string>
+
+    <string name="action_start">开始</string>
+    <string name="title_activity_q1">Q1Activity</string>
+    <string name="title_activity_q2">Q2Activity</string>
+    <string name="title_activity_q3">Q3Activity</string>
+    <string name="title_activity_q4">Q4Activity</string>
+
+    <string name="weather_format">%1$s ： %2$s</string>
+    <string name="err_parser">数据解析出错</string>
+    <string name="err_request">数据请求出错</string>
+
+</resources>
