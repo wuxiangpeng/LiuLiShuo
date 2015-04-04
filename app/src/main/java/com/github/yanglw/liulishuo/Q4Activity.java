@@ -304,7 +304,7 @@ public class Q4Activity extends ActionBarActivity
         int retX = compute((int) x, cW, w);
         int retY = compute((int) y, cH, h);
         Matrix matrix = new Matrix();
-        matrix.postScale(1.5f, 1.5f);
+        matrix.postScale(1.3f, 1.3f);
         return Bitmap.createBitmap(bitmap,
                                    retX,
                                    retY,
@@ -333,6 +333,12 @@ public class Q4Activity extends ActionBarActivity
                 retX = position - s;
             }
         }
+
+        if (retX < 0)
+        {
+            retX = 0;
+        }
+
         return retX;
     }
 }
